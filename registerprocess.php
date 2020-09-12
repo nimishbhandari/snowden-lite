@@ -16,7 +16,7 @@ if (isset($_POST) & !empty($_POST) & isset($_POST['email']) & !empty($_POST['ema
     $r = mysqli_fetch_assoc($res);
 
     if ($r < 1) {
-        echo $sql = "INSERT INTO solver (username, email, college, year, contact, password, lvl_a, lvl_b, lvl_c, lvl_d, lvl_e, lvl_f, lvl_g, lvl_h, lvl_i, lvl_j) VALUES ('$username', '$email', '$college', '$year', '$contact', '$password', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)";
+        echo $sql = "INSERT INTO solver (username, email, college, year, contact, password, thm_a, thm_b, thm_c, thm_d, thm_e, thm_f, thm_g, thm_h, thm_i, thm_j) VALUES ('$username', '$email', '$college', '$year', '$contact', '$password', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)";
         $result = mysqli_query($connection, $sql) or die(mysqli_error($connection));
 
         if ($result) {

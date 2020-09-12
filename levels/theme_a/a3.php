@@ -45,7 +45,7 @@ if (isset($_POST['ans'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="SHOWDEN">
+    <meta name="title" content="snowden">
     <meta name="description" content="FUN Event">
     <meta name="keywords" content="ieeesb, ieee, mmmut, gorkahpur">
     <meta name="robots" content="index, follow">
@@ -73,27 +73,25 @@ if (isset($_POST['ans'])) {
 <body>
 
     <!-- navbar starts -->
-
     <nav class="navbar navbar-expand-lg pt-4 mx-auto fixed-top">
         <a class="navbar-brand text-light" href="#"><img src="../../img/ts.png"> | MMMUT</a>
         <button class="navbar-toggler m-4" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i> MENU
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active  for-toggler">
-                    <a class="nav-link text-light" href="../dashboard.html">DashBoard</a>
+                    <a class="nav-link text-light" href="../../dashboard.php">DashBoard</a>
                 </li>
                 <li class="nav-item for-toggler">
-                    <a class="nav-link text-light" href="rules.html">Rules</a>
+                    <a class="nav-link text-light" href="../../rules.php" target="_blank">Rules</a>
                 </li>
                 <li class="nav-item for-toggler">
-                    <a class="nav-link text-light" target="_blank" href="../leaderboard.html">LeaderBoard</a>
+                    <a class="nav-link text-light" target="_blank" href="../../leaderboard.php" target="_blank">LeaderBoard</a>
                 </li>
             </ul>
             <span class="navbar-text btn btn-light for-toggler login-btn">
-                <a id="forlogin" class="text-dark">
+                <a href="../../logout.php" id="forlogin" class="text-dark">
                     LogOut
                 </a>
             </span>

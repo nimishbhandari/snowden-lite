@@ -45,7 +45,7 @@ if (isset($_POST['ans'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="SHOWDEN">
+    <meta name="title" content="snowden">
     <meta name="description" content="FUN Event">
     <meta name="keywords" content="ieeesb, ieee, mmmut, gorkahpur">
     <meta name="robots" content="index, follow">
@@ -71,29 +71,25 @@ if (isset($_POST['ans'])) {
 </head>
 
 <body>
-
-    <!-- navbar starts -->
-
     <nav class="navbar navbar-expand-lg pt-4 mx-auto fixed-top">
         <a class="navbar-brand text-light" href="#"><img src="../../img/ts.png"> | MMMUT</a>
         <button class="navbar-toggler m-4" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i> MENU
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active  for-toggler">
-                    <a class="nav-link text-light" href="../dashboard.html">DashBoard</a>
+                    <a class="nav-link text-light" href="../../dashboard.php">DashBoard</a>
                 </li>
                 <li class="nav-item for-toggler">
-                    <a class="nav-link text-light" href="rules.html">Rules</a>
+                    <a class="nav-link text-light" href="../../rules.php" target="_blank">Rules</a>
                 </li>
                 <li class="nav-item for-toggler">
-                    <a class="nav-link text-light" target="_blank" href="../leaderboard.html">LeaderBoard</a>
+                    <a class="nav-link text-light" target="_blank" href="../../leaderboard.php" target="_blank">LeaderBoard</a>
                 </li>
             </ul>
             <span class="navbar-text btn btn-light for-toggler login-btn">
-                <a id="forlogin" class="text-dark">
+                <a href="../../logout.php" id="forlogin" class="text-dark">
                     LogOut
                 </a>
             </span>
@@ -124,94 +120,6 @@ if (isset($_POST['ans'])) {
                             </div>
                         </div>
                     </div>
-
-                    <!-- <div class="col-lg-3 d-flex justify-content-center align-items-center flex-column">
-			<div class="row">
-							<div class="col-sm-8 col-lg-offset-4">
-							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hint1" style="width:250px; border-radius:5px;">Hint 1</button>
-							</div>
-							</div>
-							<div id="hint1" class="modal fade text-center" role="dialog">
-								<div class="modal-dialog modal-md" style="color:#000000;">
-									<div class="modal-content">
-										<div class="modal-header" style="background-color:#5F5F5F;border-top-left-radius:4px;border-top-right-radius:4px">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title" style="color:#f5f5f0;"><span class="glyphicon glyphicon-gift"></span> Hint 1</h4>
-										</div>
-										<div class="modal-body">
-										<br/><p style="color:A9A9A9;"></div>
-									</div>
-								</div>
-							  </div> <br/>
-							  <div class="row">
-							<div class="col-sm-8 col-lg-offset-4">
-							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hint2" style="width:250px; border-radius:5px;">Hint 2</button>
-							</div>
-							</div>
-							<div id="hint2" class="modal fade text-center" role="dialog">
-								<div class="modal-dialog modal-md" style="color:#000000;">
-									<div class="modal-content">
-										<div class="modal-header" style="background-color:#5F5F5F;border-top-left-radius:4px;border-top-right-radius:4px">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title" style="color:#f5f5f0;"><span class="glyphicon glyphicon-gift"></span> Hint 2</h4>
-										</div>
-										<div class="modal-body">
-										<br/><p style="color:A9A9A9;"></div>
-									</div>
-								</div>
-							  </div> <br/><div class="row">
-							<div class="col-sm-8 col-lg-offset-4">
-							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hint3" style="width:250px; border-radius:5px;">Hint 3</button>
-							</div>
-							</div>
-							<div id="hint3" class="modal fade text-center" role="dialog">
-								<div class="modal-dialog modal-md" style="color:#000000;">
-									<div class="modal-content">
-										<div class="modal-header" style="background-color:#5F5F5F;border-top-left-radius:4px;border-top-right-radius:4px">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title" style="color:#f5f5f0;"><span class="glyphicon glyphicon-gift"></span> Hint 3</h4>
-										</div>
-										<div class="modal-body">
-										<br/><p style="color:A9A9A9;"></div>
-									</div>
-								</div>
-							  </div> <br/><div class="row">
-							<div class="col-sm-8 col-lg-offset-4">
-							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hint4" style="width:250px; border-radius:5px;">Hint 4</button>
-							</div>
-							</div>
-							<div id="hint4" class="modal fade text-center" role="dialog">
-								<div class="modal-dialog modal-md" style="color:#000000;">
-									<div class="modal-content">
-										<div class="modal-header" style="background-color:#5F5F5F;border-top-left-radius:4px;border-top-right-radius:4px">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title" style="color:#f5f5f0;"><span class="glyphicon glyphicon-gift"></span> Hint 4</h4>
-										</div>
-										<div class="modal-body">
-										<br/><p style="color:A9A9A9;">'.$row["hint"].
-										'</div>
-									</div>
-								</div>
-								</div>
-								<br/><div class="row">
-									<div class="col-sm-8 col-lg-offset-4">
-									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hint5" style="width:250px; border-radius:5px;">Hint 5</button>
-									</div>
-									</div>
-									<div id="hint5" class="modal fade text-center" role="dialog">
-										<div class="modal-dialog modal-md" style="color:#000000;">
-											<div class="modal-content">
-												<div class="modal-header" style="background-color:#5F5F5F;border-top-left-radius:4px;border-top-right-radius:4px">
-													<button type="button" class="close" data-dismiss="modal">&times;</button>
-													<h4 class="modal-title" style="color:#f5f5f0;"><span class="glyphicon glyphicon-gift"></span> Hint 5</h4>
-												</div>
-												<div class="modal-body">
-												<br/><p style="color:A9A9A9;">'.$row["hint"].
-												'</div>
-											</div>
-										</div>
-										</div>
-					</div> -->
                 </div>
             </div>
         </div>

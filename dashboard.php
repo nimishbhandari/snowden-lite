@@ -62,10 +62,10 @@ $thm_j =  $r1['thm_j'];
                     <a class="nav-link text-light" href="">DashBoard</a>
                 </li>
                 <li class="nav-item for-toggler">
-                    <a class="nav-link text-light" href="rules.php">Rules</a>
+                    <a class="nav-link text-light" href="rules.php" target="_blank">Rules</a>
                 </li>
                 <li class="nav-item for-toggler">
-                    <a class="nav-link text-light" target="_blank" href="leaderboard.php">LeaderBoard</a>
+                    <a class="nav-link text-light" target="_blank" href="leaderboard.php" target="_blank">LeaderBoard</a>
                 </li>
             </ul>
             <span class="navbar-text btn btn-light for-toggler login-btn">

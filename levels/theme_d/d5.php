@@ -6,29 +6,29 @@ $email = $_SESSION['user'];
 $sql1 = "SELECT * FROM solver WHERE email='$email'";
 $res1 = mysqli_query($connection, $sql1);
 $r1 = mysqli_fetch_assoc($res1);
-$thm_a =  $r1['thm_a'];
+$thm_d =  $r1['thm_d'];
 $score =  $r1['score'];
 
-$sql2 = "SELECT * FROM coder WHERE id=1";
+$sql2 = "SELECT * FROM coder WHERE id=4";
 $res2 = mysqli_query($connection, $sql2);
 $r2 = mysqli_fetch_assoc($res2);
 
 $c_score =  $r2['score'];
 
-if ($thm_a != 5) {
-    header('location: ./a' . $thm_a . '.php');
+if ($thm_d != 5) {
+    header('location: ./a' . $thm_d . '.php');
 }
 if (!isset($_SESSION['user']) & empty($_SESSION['user'])) {
     header('location: index.php');
 }
 if (isset($_POST['ans'])) {
     $ans = md5($_POST['ans']);
-    $sql = "SELECT * FROM coder WHERE id=1 AND ans5='$ans'";
+    $sql = "SELECT * FROM coder WHERE id=4 AND ans5='$ans'";
     $result = mysqli_query($connection, $sql) or die(mysqli_error($connection));
     $count = mysqli_num_rows($result);
     if ($count == 1) {
-        $sql_solver = "UPDATE solver SET thm_a='$thm_a'+1, score='$score'+1 WHERE email='$email'";
-        $sql_coder = "UPDATE coder SET score='$c_score'-1 WHERE id=1";
+        $sql_solver = "UPDATE solver SET thm_d='$thm_d'+1, score='$score'+1 WHERE email='$email'";
+        $sql_coder = "UPDATE coder SET score='$c_score'-1 WHERE id=4";
         if (mysqli_query($connection, $sql_solver) & mysqli_query($connection, $sql_coder)) {
             header("location: ../../dashboard.php");
         }
@@ -45,7 +45,7 @@ if (isset($_POST['ans'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="SHOWDEN">
+    <meta name="title" content="snowden">
     <meta name="description" content="FUN Event">
     <meta name="keywords" content="ieeesb, ieee, mmmut, gorkahpur">
     <meta name="robots" content="index, follow">
@@ -83,17 +83,17 @@ if (isset($_POST['ans'])) {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active  for-toggler">
-                    <a class="nav-link text-light" href="../dashboard.html">DashBoard</a>
+                    <a class="nav-link text-light" href="../../dashboard.php">DashBoard</a>
                 </li>
                 <li class="nav-item for-toggler">
-                    <a class="nav-link text-light" href="rules.html">Rules</a>
+                    <a class="nav-link text-light" href="../../rules.php" target="_blank">Rules</a>
                 </li>
                 <li class="nav-item for-toggler">
-                    <a class="nav-link text-light" target="_blank" href="../leaderboard.html">LeaderBoard</a>
+                    <a class="nav-link text-light" target="_blank" href="../../leaderboard.php" target="_blank">LeaderBoard</a>
                 </li>
             </ul>
             <span class="navbar-text btn btn-light for-toggler login-btn">
-                <a id="forlogin" class="text-dark">
+                <a href="../../logout.php" id="forlogin" class="text-dark">
                     LogOut
                 </a>
             </span>
