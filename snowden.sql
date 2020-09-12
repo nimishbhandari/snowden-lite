@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 11, 2020 at 10:21 PM
+-- Generation Time: Sep 12, 2020 at 11:26 AM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.8
 
@@ -33,7 +33,6 @@ CREATE TABLE `coder` (
   `theme_num` varchar(255) NOT NULL,
   `theme_name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `ans0` varchar(255) NOT NULL,
   `ans1` varchar(255) NOT NULL,
   `ans2` varchar(255) NOT NULL,
   `ans3` varchar(255) NOT NULL,
@@ -47,8 +46,8 @@ CREATE TABLE `coder` (
 -- Dumping data for table `coder`
 --
 
-INSERT INTO `coder` (`id`, `username`, `theme_num`, `theme_name`, `email`, `ans0`, `ans1`, `ans2`, `ans3`, `ans4`, `ans5`, `score`, `up_time`) VALUES
-(1, 'test1', '1', 'theme1', 'theme@gmail.com', 'f6f4061a1bddc1c04d8109b39f581270', '5a105e8b9d40e1329780d62ea2265d8a', 'ad0234829205b9033196ba818f7a872b', '8ad8757baa8564dc136c1e07507f4a98', '86985e105f79b95d6bc918fb45ec7727', 'e3d704f3542b44a621ebed70dc0efe13', '-8', '2020-09-11 18:42:33');
+INSERT INTO `coder` (`id`, `username`, `theme_num`, `theme_name`, `email`, `ans1`, `ans2`, `ans3`, `ans4`, `ans5`, `score`, `up_time`) VALUES
+(1, 'test1', '1', 'theme1', 'theme@gmail.com', '5a105e8b9d40e1329780d62ea2265d8a', 'ad0234829205b9033196ba818f7a872b', '8ad8757baa8564dc136c1e07507f4a98', '86985e105f79b95d6bc918fb45ec7727', 'e3d704f3542b44a621ebed70dc0efe13', '-10', '2020-09-12 08:58:17');
 
 -- --------------------------------------------------------
 
@@ -86,7 +85,8 @@ INSERT INTO `solver` (`id`, `username`, `email`, `college`, `year`, `contact`, `
 (1, 'nimish', 'nimishbhandari727521@gmail.com', 'mmmut', 'nimish', 'nimish', '05fdbe066cbfd7080252b0281a856832', 1, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, '2020-09-11 19:41:26'),
 (2, 'noioi', 'boihoipi@gmail.com', 'mmut', '4', '97697', 'ddaa25536c7cd34c488b67ed6fb7c3cb', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0000-00-00 00:00:00'),
 (3, 'aidipi', 'asdoa@gail.com', 'aoibd', '1', '8122179', 'd6ce1f5532468b543ee13a592b8b9cd1', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0000-00-00 00:00:00'),
-(4, 'test', 'test@gmail.com', 'm', '1', '1', '098f6bcd4621d373cade4e832627b4f6', 6, 0, 0, 0, 0, 6, 0, 0, 0, 0, 6, '2020-09-11 19:13:46');
+(4, 'test', 'test@gmail.com', 'm', '1', '1', '098f6bcd4621d373cade4e832627b4f6', 2, 1, 3, 0, 3, 6, 5, 4, 2, 2, 7, '2020-09-12 09:09:05'),
+(5, 'prop', 'prop@gmail.com', 'mmmut', '2', '92123', '23a5b8ab834cb5140fa6665622eb6417', 1, 3, 1, 2, 3, 5, 4, 4, 0, 0, 1, '2020-09-12 09:06:46');
 
 --
 -- Indexes for dumped tables
@@ -120,7 +120,7 @@ ALTER TABLE `coder`
 -- AUTO_INCREMENT for table `solver`
 --
 ALTER TABLE `solver`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
