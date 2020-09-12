@@ -91,7 +91,7 @@ $thm_j =  $r1['thm_j'];
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_a == 6) {
-                                        echo 'Completed!!';
+                                        // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
@@ -116,14 +116,14 @@ $thm_j =  $r1['thm_j'];
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_b == 6) {
-                                        echo 'Completed!!';
+                                        // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
                             if ($thm_b == 6) {
-                                echo 'Completed!!';
+                                // echo 'Completed!!';
                             } else {
                             ?>
                                 <a class="ci-logo" href="levels/theme_b/b<?php echo $thm_b ?>.php" data-toggle="tooltip" data-placement="top" title="Tap To Play">
@@ -141,14 +141,14 @@ $thm_j =  $r1['thm_j'];
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_c == 6) {
-                                        echo 'Completed!!';
+                                        // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
                             if ($thm_c == 6) {
-                                echo 'Completed!!';
+                                // echo 'Completed!!';
                             } else {
                             ?>
                                 <a class="ci-logo" href="levels/theme_c/c<?php echo $thm_c ?>.php" data-toggle="tooltip" data-placement="top" title="Tap To Play">
@@ -166,14 +166,14 @@ $thm_j =  $r1['thm_j'];
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_d == 6) {
-                                        echo 'Completed!!';
+                                        // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
                             if ($thm_d == 6) {
-                                echo 'Completed!!';
+                                // echo 'Completed!!';
                             } else {
                             ?>
                                 <a class="ci-logo" href="levels/theme_d/d<?php echo $thm_d ?>.php" data-toggle="tooltip" data-placement="top" title="Tap To Play">
@@ -191,7 +191,7 @@ $thm_j =  $r1['thm_j'];
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_e == 6) {
-                                        echo 'Completed!!';
+                                        // echo 'Completed!!';
                                     } else {
                                     ?>
                                 </p>
@@ -212,14 +212,14 @@ $thm_j =  $r1['thm_j'];
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_f == 6) {
-                                        echo 'Completed!!';
+                                        //  // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
                             if ($thm_f == 6) {
-                                echo 'Completed!!';
+                                //  // echo 'Completed!!';
                             } else {
                             ?>
                                 <a class="ci-logo" href="levels/theme_f/f<?php echo $thm_f ?>.php" data-toggle="tooltip" data-placement="top" title="Tap To Play">
@@ -238,14 +238,14 @@ $thm_j =  $r1['thm_j'];
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_g == 6) {
-                                        echo 'Completed!!';
+                                        //  // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
                             if ($thm_g == 6) {
-                                echo 'Completed!!';
+                                //  // echo 'Completed!!';
                             } else {
                             ?>
                                 <a class="ci-logo" href="levels/theme_g/g<?php echo $thm_g ?>.php" data-toggle="tooltip" data-placement="top" title="Tap To Play">
@@ -263,14 +263,14 @@ $thm_j =  $r1['thm_j'];
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_h == 6) {
-                                        echo 'Completed!!';
+                                        // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
                             if ($thm_h == 6) {
-                                echo 'Completed!!';
+                                // echo 'Completed!!';
                             } else {
                             ?>
                                 <a class="ci-logo" href="levels/theme_h/h<?php echo $thm_h ?>.php" data-toggle="tooltip" data-placement="top" title="Tap To Play">
@@ -288,14 +288,14 @@ $thm_j =  $r1['thm_j'];
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_i == 6) {
-                                        echo 'Completed!!';
+                                        // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
                             if ($thm_i == 6) {
-                                echo 'Completed!!';
+                                // echo 'Completed!!';
                             } else {
                             ?>
                                 <a class="ci-logo" href="levels/theme_i/i<?php echo $thm_i ?>.php" data-toggle="tooltip" data-placement="top" title="Tap To Play">
@@ -313,14 +313,14 @@ $thm_j =  $r1['thm_j'];
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_j == 6) {
-                                        echo 'Completed!!';
+                                        // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
                             if ($thm_j == 6) {
-                                echo 'Completed!!';
+                                // echo 'Completed!!';
                             } else {
                             ?>
                                 <a class="ci-logo" href="levels/theme_j/j<?php echo $thm_j ?>.php" data-toggle="tooltip" data-placement="top" title="Tap To Play">
