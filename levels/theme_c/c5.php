@@ -27,7 +27,7 @@ if (isset($_POST['ans'])) {
     $result = mysqli_query($connection, $sql) or die(mysqli_error($connection));
     $count = mysqli_num_rows($result);
     if ($count == 1) {
-        $sql_solver = "UPDATE solver SET thm_c='$thm_c'+1, score='$score'+1 WHERE email='$email'";
+        $sql_solver = "UPDATE solver SET thm_c='$thm_c'+1 WHERE email='$email'";
         $sql_coder = "UPDATE coder SET score='$c_score'-1 WHERE id=3";
         if (mysqli_query($connection, $sql_solver) & mysqli_query($connection, $sql_coder)) {
             header("location: ../../dashboard.php");

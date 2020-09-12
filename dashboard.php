@@ -90,14 +90,14 @@ $thm_j =  $r1['thm_j'];
                                 <h4><?php echo $thm_a ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
-                                    if ($thm_a == 6) {
+                                    if ($thm_a == 5) {
                                         // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
-                            if ($thm_a == 6) {
+                            if ($thm_a == 5) {
                                 echo 'Comleted!!';
                             } else {
                             ?>
@@ -115,14 +115,14 @@ $thm_j =  $r1['thm_j'];
                                 <h4><?php echo $thm_b ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
-                                    if ($thm_b == 6) {
+                                    if ($thm_b == 5) {
                                         // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
-                            if ($thm_b == 6) {
+                            if ($thm_b == 5) {
                                 // echo 'Completed!!';
                             } else {
                             ?>
@@ -140,14 +140,14 @@ $thm_j =  $r1['thm_j'];
                                 <h4><?php echo $thm_c ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
-                                    if ($thm_c == 6) {
+                                    if ($thm_c == 5) {
                                         // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
-                            if ($thm_c == 6) {
+                            if ($thm_c == 5) {
                                 // echo 'Completed!!';
                             } else {
                             ?>
@@ -165,14 +165,14 @@ $thm_j =  $r1['thm_j'];
                                 <h4><?php echo $thm_d ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
-                                    if ($thm_d == 6) {
+                                    if ($thm_d == 5) {
                                         // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
-                            if ($thm_d == 6) {
+                            if ($thm_d == 5) {
                                 // echo 'Completed!!';
                             } else {
                             ?>
@@ -190,7 +190,7 @@ $thm_j =  $r1['thm_j'];
                                 <h4><?php echo $thm_e ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
-                                    if ($thm_e == 6) {
+                                    if ($thm_e == 5) {
                                         // echo 'Completed!!';
                                     } else {
                                     ?>
@@ -211,14 +211,14 @@ $thm_j =  $r1['thm_j'];
 
                                 <p style="color: green;">
                                     <?php
-                                    if ($thm_f == 6) {
+                                    if ($thm_f == 5) {
                                         //  // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
-                            if ($thm_f == 6) {
+                            if ($thm_f == 5) {
                                 //  // echo 'Completed!!';
                             } else {
                             ?>
@@ -237,14 +237,14 @@ $thm_j =  $r1['thm_j'];
 
                                 <p style="color: green;">
                                     <?php
-                                    if ($thm_g == 6) {
+                                    if ($thm_g == 5) {
                                         //  // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
-                            if ($thm_g == 6) {
+                            if ($thm_g == 5) {
                                 //  // echo 'Completed!!';
                             } else {
                             ?>
@@ -262,14 +262,14 @@ $thm_j =  $r1['thm_j'];
                                 <h4><?php echo $thm_h ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
-                                    if ($thm_h == 6) {
+                                    if ($thm_h == 5) {
                                         // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
-                            if ($thm_h == 6) {
+                            if ($thm_h == 5) {
                                 // echo 'Completed!!';
                             } else {
                             ?>
@@ -287,14 +287,14 @@ $thm_j =  $r1['thm_j'];
                                 <h4><?php echo $thm_i ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
-                                    if ($thm_i == 6) {
+                                    if ($thm_i == 5) {
                                         // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
-                            if ($thm_i == 6) {
+                            if ($thm_i == 5) {
                                 // echo 'Completed!!';
                             } else {
                             ?>
@@ -312,14 +312,14 @@ $thm_j =  $r1['thm_j'];
                                 <h4><?php echo $thm_j ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
-                                    if ($thm_j == 6) {
+                                    if ($thm_j == 5) {
                                         // echo 'Completed!!';
                                     }
                                     ?>
                                 </p>
                             </div>
                             <?php
-                            if ($thm_j == 6) {
+                            if ($thm_j == 5) {
                                 // echo 'Completed!!';
                             } else {
                             ?>

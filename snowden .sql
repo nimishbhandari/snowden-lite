@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 12, 2020 at 11:26 AM
+-- Generation Time: Sep 12, 2020 at 11:34 AM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.8
 
@@ -85,7 +85,7 @@ INSERT INTO `solver` (`id`, `username`, `email`, `college`, `year`, `contact`, `
 (1, 'nimish', 'nimishbhandari727521@gmail.com', 'mmmut', 'nimish', 'nimish', '05fdbe066cbfd7080252b0281a856832', 1, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, '2020-09-11 19:41:26'),
 (2, 'noioi', 'boihoipi@gmail.com', 'mmut', '4', '97697', 'ddaa25536c7cd34c488b67ed6fb7c3cb', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0000-00-00 00:00:00'),
 (3, 'aidipi', 'asdoa@gail.com', 'aoibd', '1', '8122179', 'd6ce1f5532468b543ee13a592b8b9cd1', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0000-00-00 00:00:00'),
-(4, 'test', 'test@gmail.com', 'm', '1', '1', '098f6bcd4621d373cade4e832627b4f6', 2, 1, 3, 0, 3, 6, 5, 4, 2, 2, 7, '2020-09-12 09:09:05'),
+(4, 'test', 'test@gmail.com', 'm', '1', '1', '098f6bcd4621d373cade4e832627b4f6', 2, 1, 3, 0, 3, 5, 5, 4, 2, 2, 7, '2020-09-12 09:31:50'),
 (5, 'prop', 'prop@gmail.com', 'mmmut', '2', '92123', '23a5b8ab834cb5140fa6665622eb6417', 1, 3, 1, 2, 3, 5, 4, 4, 0, 0, 1, '2020-09-12 09:06:46');
 
 --
