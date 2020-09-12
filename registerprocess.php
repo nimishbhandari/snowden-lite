@@ -21,8 +21,8 @@ if (isset($_POST) & !empty($_POST) & isset($_POST['email']) & !empty($_POST['ema
 
         if ($result) {
             //echo "User exits, create session";
-            $_SESSION['user'] = $email;
-            $_SESSION['userid'] = mysqli_insert_id($connection);
+            // $_SESSION['user'] = $email;
+            // $_SESSION['userid'] = mysqli_insert_id($connection);
             header("location: index.php?message=12");
         } else {
             //$fmsg = "Invalid index Credentials";

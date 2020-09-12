@@ -22,18 +22,9 @@ if (!isset($_SESSION['user']) & empty($_SESSION['user'])) {
     header('location: index.php');
 }
 if (isset($_POST['ans'])) {
-    $ans = md5($_POST['ans']);
-    $sql = "SELECT * FROM coder WHERE id=4 AND ans0='$ans'";
-    $result = mysqli_query($connection, $sql) or die(mysqli_error($connection));
-    $count = mysqli_num_rows($result);
-    if ($count == 1) {
-        $sql_solver = "UPDATE solver SET thm_d='$thm_d'+1, score='$score'+1 WHERE email='$email'";
-        $sql_coder = "UPDATE coder SET score='$c_score'-1 WHERE id=4";
-        if (mysqli_query($connection, $sql_solver) & mysqli_query($connection, $sql_coder)) {
-            header("location: a1.php");
-        }
-    } else {
-        // header("location: a0.php");
+    $sql_solver = "UPDATE solver SET thm_d='$thm_d'+1 WHERE email='$email'";
+    if (mysqli_query($connection, $sql_solver)) {
+        header("location: d1.php");
     }
 }
 
@@ -117,7 +108,7 @@ if (isset($_POST['ans'])) {
                             <div class="col-sm-12">
                                 <form class="d-flex flex-column justify-content-center" role="form" method="post">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="ans" name="ans" placeholder="Enter Answer" pattern="[a-zA-Z0-9._@ ]+" required>
+                                        <input type="hidden" class="form-control" id="ans" name="ans" placeholder="Enter Answer" pattern="[a-zA-Z0-9._@ ]+" required>
                                     </div>
                                     <button type="submit" name="submit" id="submit" class="btn btn-primary btn-sm mr-5 ml-5" style="border-radius:5px;">Submit</button>
                                 </form>

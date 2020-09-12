@@ -1,5 +1,4 @@
 <?php
-session_start();
 require_once './config/connect.php';
 $sql = "SELECT * FROM solver ORDER BY score DESC, up_time ASC";
 $rank = 1;
@@ -13,7 +12,7 @@ $rank1 = 1;
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="title" content="SHOWDEN">
+  <meta name="title" content="SNOWDEN">
   <meta name="description" content="FUN Event">
   <meta name="keywords" content="ieeesb, ieee, mmmut, gorkahpur">
   <meta name="robots" content="index, follow">
@@ -47,19 +46,14 @@ $rank1 = 1;
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active  for-toggler">
-          <a class="nav-link text-light" href="dashboard.html">DashBoard</a>
+          <a class="nav-link text-light" href="dashboard.php">DashBoard</a>
         </li>
         <li class="nav-item for-toggler">
-          <a class="nav-link text-light" href="rules.html">Rules</a>
+          <a class="nav-link text-light" href="rules.php">Rules</a>
         </li>
-        <li class="nav-item for-toggler">
-          <a class="nav-link text-light" target="_blank" href="leaderboard.html">LeaderBoard</a>
-        </li>
+
       </ul>
-      <span class="navbar-text btn btn-light for-toggler login-btn">
-        <a id="forlogin" class="text-dark">
-          LogOut</a>
-      </span>
+
     </div>
   </nav>
 

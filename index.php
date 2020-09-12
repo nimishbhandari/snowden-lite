@@ -8,7 +8,7 @@ require_once 'config/connect.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="SHOWDEN">
+    <meta name="title" content="SNOWDEN">
     <meta name="description" content="FUN Event">
     <meta name="keywords" content="ieeesb, ieee, mmmut, gorkahpur">
     <meta name="robots" content="index, follow">
@@ -45,10 +45,10 @@ require_once 'config/connect.php';
                     <a class="nav-link text-light" href="">Home</a>
                 </li>
                 <li class="nav-item for-toggler">
-                    <a class="nav-link text-light" href="rules.html">Rules</a>
+                    <a class="nav-link text-light" href="rules.php">Rules</a>
                 </li>
                 <li class="nav-item for-toggler">
-                    <a class="nav-link text-light" href="contactus.html">Contact Us</a>
+                    <a class="nav-link text-light" href="contactus.php">Contact Us</a>
                 </li>
             </ul>
             <span class="navbar-text btn btn-light for-toggler login-btn">

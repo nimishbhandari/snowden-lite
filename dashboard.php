@@ -25,7 +25,7 @@ $thm_j =  $r1['thm_j'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="SHOWDEN">
+    <meta name="title" content="SNOWDEN">
     <meta name="description" content="FUN Event">
     <meta name="keywords" content="ieeesb, ieee, mmmut, gorkahpur">
     <meta name="robots" content="index, follow">
@@ -87,7 +87,7 @@ $thm_j =  $r1['thm_j'];
                             <img src="https://picsum.photos/500/300/?image=10" alt="">
                             <div class="ci-text">
                                 <h4>Theme1</h4>
-                                <p>Theme Content1</p>
+                                <h4><?php echo $thm_a ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_a == 6) {
@@ -112,7 +112,7 @@ $thm_j =  $r1['thm_j'];
                             <img src="https://picsum.photos/500/300/?image=10" alt="">
                             <div class="ci-text">
                                 <h4>Theme2</h4>
-                                <p>Theme Content2</p>
+                                <h4><?php echo $thm_b ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_b == 6) {
@@ -137,7 +137,7 @@ $thm_j =  $r1['thm_j'];
                             <img src="https://picsum.photos/500/300/?image=10" alt="">
                             <div class="ci-text">
                                 <h4>Theme3</h4>
-                                <p>Theme Content1</p>
+                                <h4><?php echo $thm_c ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_c == 6) {
@@ -162,7 +162,7 @@ $thm_j =  $r1['thm_j'];
                             <img src="https://picsum.photos/500/300/?image=10" alt="">
                             <div class="ci-text">
                                 <h4>Theme4</h4>
-                                <p>Theme Content1</p>
+                                <h4><?php echo $thm_d ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_d == 6) {
@@ -187,7 +187,7 @@ $thm_j =  $r1['thm_j'];
                             <img src="https://picsum.photos/500/300/?image=10" alt="">
                             <div class="ci-text">
                                 <h4>Theme5</h4>
-                                <p>Theme Content1</p>
+                                <h4><?php echo $thm_e ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_e == 6) {
@@ -207,7 +207,8 @@ $thm_j =  $r1['thm_j'];
                             <img src="https://picsum.photos/500/300/?image=10" alt="">
                             <div class="ci-text">
                                 <h4>Theme6</h4>
-                                <p>Theme Content1</p>
+                                <h4><?php echo $thm_f ?>/5</h4>
+
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_f == 6) {
@@ -232,7 +233,8 @@ $thm_j =  $r1['thm_j'];
                             <img src="https://picsum.photos/500/300/?image=10" alt="">
                             <div class="ci-text">
                                 <h4>Theme7</h4>
-                                <p>Theme Content7</p>
+                                <h4><?php echo $thm_g ?>/5</h4>
+
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_g == 6) {
@@ -257,7 +259,7 @@ $thm_j =  $r1['thm_j'];
                             <img src="https://picsum.photos/500/300/?image=10" alt="">
                             <div class="ci-text">
                                 <h4>Theme8</h4>
-                                <p>Theme Content8</p>
+                                <h4><?php echo $thm_h ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_h == 6) {
@@ -282,7 +284,7 @@ $thm_j =  $r1['thm_j'];
                             <img src="https://picsum.photos/500/300/?image=10" alt="">
                             <div class="ci-text">
                                 <h4>Theme9</h4>
-                                <p>Theme Content9</p>
+                                <h4><?php echo $thm_i ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_i == 6) {
@@ -307,7 +309,7 @@ $thm_j =  $r1['thm_j'];
                             <img src="https://picsum.photos/500/300/?image=10" alt="">
                             <div class="ci-text">
                                 <h4>Theme10</h4>
-                                <p>Theme Content10</p>
+                                <h4><?php echo $thm_j ?>/5</h4>
                                 <p style="color: green;">
                                     <?php
                                     if ($thm_j == 6) {
